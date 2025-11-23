@@ -1,0 +1,6 @@
+Base Parser（HanLP/Stanza/Biaffine）
+→ Validator（发现异常）：找错误，也就是，以前出过的错误写进去
+→ LLM（进行全局语义级纠错）
+→ Validator
+存疑： 使用什么llm 本地部署还是调api
+
